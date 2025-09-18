@@ -8,11 +8,12 @@ A Ghost Busting device built with an STM32 microcontroller and multiple sensors 
 - **OLED Display:** Shows ghost status (`Detected / Ready to be Busted / Busted`).
 - **Buzzer Alerts:** Sound notification for ghost detection and busting.
 - **Sensors Used:** Temperature, humidity, and magnetic intensity sensors to detect ghost activity.
+- **Auto Calibration:** Sensors are automatically calibrated on device startup to prevent erroneous readings.
 
 ## Project Structure
 - **Hardware:** STM32L4 Discovery kit.
 - **Software:** STM32 code including sensor readings, display, and buzzer control.
-- **Images and Videos:** Photos and videos of the device.
+- **Videos:** Demo videos of the device.
 
 ## How to Run
 1. Flash the STM32 with the provided firmware.
